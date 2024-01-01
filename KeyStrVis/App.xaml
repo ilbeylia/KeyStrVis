@@ -29,7 +29,26 @@
                     <Setter Property="Foreground" Value="#DEE2E6"/>
                 </Trigger>
             </Style.Triggers>
-
+        </Style>
+        
+        <!-- Dynemic Button Style -->
+        <Style x:Key="DynemicButton" TargetType="Button">
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="0 5 0 5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border>
+                            <StackPanel Orientation="Horizontal">
+                                <Icon:PackIconMaterial Kind="ArrowRight" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 0" Foreground="#ffff" Width="10" Height="10"/>
+                                <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Text="{TemplateBinding Content}" FontSize="14" Foreground="#ffff" Margin="10 5 0 5" FontWeight="Bold"/>
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
          
     </Application.Resources>

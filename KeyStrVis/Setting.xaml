@@ -19,12 +19,15 @@
         <Grid Grid.Row="1">
             <Border Background="Transparent">
                 <StackPanel Orientation="Vertical">
-                    <Separator Height="0.6" VerticalAlignment="Top" Margin="0 5 0 0" Width="250" Background="#ffffff"/>
+                    <Separator Height="0.6" VerticalAlignment="Top" Margin="0 5 0 5" Width="250" Background="#ffffff"/>
                     <Border>
-                        <Button Background="Transparent">
-                           <TextBlock  VerticalAlignment="Top" HorizontalAlignment="Left" Text="Color Options" FontSize="14" Foreground="#ffff" Margin="20 5 0 5" FontWeight="Bold"/>
- 
-                        </Button>
+                        <Button x:Name="ColorOptions_Button" Style="{StaticResource DynemicButton}" Content="Color" />
+                    </Border>
+                    <Border>
+                        <Button x:Name="OpacityOptions_Button" Style="{StaticResource DynemicButton}" Content="Opacity"/>
+                    </Border>
+                    <Border>
+                        <Button x:Name="TypographyOptions_Button" Style="{StaticResource DynemicButton}" Content="Typography"/>
                     </Border>
 
                 </StackPanel>
