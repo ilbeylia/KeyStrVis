@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace KeyStrVis
 {
@@ -20,13 +22,17 @@ namespace KeyStrVis
     /// </summary>
     public partial class MainWindow : Window
     {
+
+
         private bool IsDragging = false;
         private Point StartPoint;
         public int Mode_Select_Index;
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Content = new Setting();
         }
+
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
@@ -40,7 +46,7 @@ namespace KeyStrVis
 
         private void Setting_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Content = new Setting();
         }
 
         private void WindowMove(object sender, MouseEventArgs e)
@@ -79,12 +85,15 @@ namespace KeyStrVis
 
         private void MouseButton_Click(object sender, RoutedEventArgs e)
         {
+            MainFrame.Content = new Mouse();
 
         }
 
         private void KeyboardButton_Click(object sender, RoutedEventArgs e)
         {
-
+            MainFrame.Content = new Keyboard();
         }
+
+
     }
 }

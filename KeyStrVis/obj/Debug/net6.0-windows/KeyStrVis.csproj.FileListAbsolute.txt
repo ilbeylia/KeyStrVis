@@ -5,11 +5,21 @@ C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Debug\net6.0-windows\KeyStrV
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Debug\net6.0-windows\KeyStrVis.pdb
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Debug\net6.0-windows\Newtonsoft.Json.Schema.dll
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis.csproj.AssemblyReference.cache
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\Keyboard.g.cs
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\Mouse.g.cs
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\Setting.g.cs
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis_MarkupCompile.cache
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis_MarkupCompile.lref
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\App.baml
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\Keyboard.baml
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\Mouse.baml
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\Setting.baml
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis.g.resources
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis.AssemblyInfoInputs.cache
@@ -21,5 +31,3 @@ C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\refint\
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis.pdb
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis.genruntimeconfig.cache
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\ref\KeyStrVis.dll
-C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis_MarkupCompile.lref
-C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\App.baml

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WOPVIpiTFtdLg0DATLbIPP0fc03uRB0LQzA9dpvpNvz2wFMkkHItUIq4dZ29K5RA6oSbGvENQU5TriZnWSUfCg==",
+  "dgSpecHash": "m8uDzzZDTNkCZhaJUpAHYEGo1PzUIH917X37JVHqqSPohlyoV8wjz9jMyKiiQk9c5RQd2z/BYxL7zOhyUMOBsw==",
   "success": true,
   "projectFilePath": "C:\\Users\\CANAVAR-32\\Desktop\\KeyStrVis\\KeyStrVis\\KeyStrVis.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CANAVAR-32\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512"
+    "C:\\Users\\CANAVAR-32\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512",
+    "C:\\Users\\CANAVAR-32\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\CANAVAR-32\\.nuget\\packages\\newtonsoft.json.schema\\3.0.15\\newtonsoft.json.schema.3.0.15.nupkg.sha512"
   ],
   "logs": []
 }
