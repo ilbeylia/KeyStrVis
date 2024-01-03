@@ -21,14 +21,46 @@
                 <StackPanel Orientation="Vertical">
                     <Separator Height="0.6" VerticalAlignment="Top" Margin="0 5 0 5" Width="250" Background="#ffffff"/>
                     <Border>
-                        <Button x:Name="ColorOptions_Button" Style="{StaticResource DynemicButton}" Content="Color" />
+                        <Button x:Name="ColorOptions_Button" Style="{StaticResource DynemicButton}" Content="Color" Click="ColorOptions_Click"/>
                     </Border>
+                    <!--Color Options-->
+                    <Grid x:Name="ColorOptionsGrid" Height="80" Visibility="Visible">
+                        <StackPanel Orientation="Vertical">
+                            <Border Background="#CED4DA" CornerRadius="5" Width="250" Height="30" Margin=" 0 5 0 5">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Background" Style="{StaticResource TextBlockStyle}"/>
+                                    <Rectangle x:Name="BackgroundColor_rectangel" Width="20" Height="20" HorizontalAlignment="Left" Margin="20 0 0 0" Fill="#FFFF"/>
+
+                                </StackPanel>
+                            </Border>
+
+                            <Border Background="#CED4DA" CornerRadius="5" Width="250" Height="30" Margin=" 0 5 0 5">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Foreground" Style="{StaticResource TextBlockStyle}" />
+                                    <Rectangle x:Name="ForegroundColor_rectangel" Width="20" Height="20" HorizontalAlignment="Left" Margin="21 0 0 0" Fill="#FFFF"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Grid>
+                    
+                    <Separator Height="0.6" VerticalAlignment="Top" Margin="0 5 0 5" Width="250" Background="#ffffff"/>
                     <Border>
-                        <Button x:Name="OpacityOptions_Button" Style="{StaticResource DynemicButton}" Content="Opacity"/>
+                        <Button x:Name="OpacityOptions_Button" Style="{StaticResource DynemicButton}" Content="Opacity" Click="OpacityOptions_Button_Click"/>
                     </Border>
+                    <StackPanel Orientation="Vertical">
+                        <Border Background="#CED4DA" CornerRadius="5" Width="250" Height="30" Margin=" 0 5 0 5">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Opacity" Style="{StaticResource TextBlockStyle}"/>
+                                <Slider x:Name="Opacity_Slider" Maximum="1" Minimum="0" VerticalAlignment="Center" Margin="50 0 0 0" Width="100"/>
+
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                    <Separator Height="0.6" VerticalAlignment="Top" Margin="0 5 0 5" Width="250" Background="#ffffff"/>
                     <Border>
                         <Button x:Name="TypographyOptions_Button" Style="{StaticResource DynemicButton}" Content="Typography"/>
                     </Border>
+                    <Separator Height="0.6" VerticalAlignment="Top" Margin="0 5 0 5" Width="250" Background="#ffffff"/>
 
                 </StackPanel>
             </Border>

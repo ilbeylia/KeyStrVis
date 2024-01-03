@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MahApps.Metro.IconPacks;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Linq;
 
 namespace KeyStrVis
 {
@@ -23,6 +25,41 @@ namespace KeyStrVis
         public Setting()
         {
             InitializeComponent();
+        }
+
+        private void ColorOptions_Click(object sender, RoutedEventArgs e)
+        {
+            Change_Visibility("ColorOptionsGrid");
+        }
+
+        private void Change_Visibility(String Name)
+        {
+            UIElement targetElement = FindName(Name) as UIElement;
+
+            if (targetElement != null)
+            {
+                
+                if (targetElement.Visibility == Visibility.Collapsed)
+                {
+                    targetElement.Visibility = Visibility.Visible;
+
+                }
+                else
+                {
+                    targetElement.Visibility = Visibility.Collapsed;
+                }
+            }
+            else
+            {
+                
+                MessageBox.Show($"UIElement '{Name}' not found.");
+            }
+
+        }
+
+        private void OpacityOptions_Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

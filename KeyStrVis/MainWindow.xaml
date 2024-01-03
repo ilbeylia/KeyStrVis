@@ -55,7 +55,7 @@
                         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
                     </Border>
                     <Border Width="150" Height="6" Background="#ADB5BD" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10" CornerRadius="2" Grid.ColumnSpan="2" Opacity="0.95">
-                    
+                        <Button Click="Test" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
                     </Border>
                 </Grid>
             </Grid>

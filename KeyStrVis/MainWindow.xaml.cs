@@ -94,6 +94,11 @@ namespace KeyStrVis
             MainFrame.Content = new Keyboard();
         }
 
-
+        private void Test(object sender, RoutedEventArgs e)
+        {
+            StronkeVisualizer stronkeVisualizer = new StronkeVisualizer();
+            this.Hide();
+            stronkeVisualizer.Show();
+        }
     }
 }

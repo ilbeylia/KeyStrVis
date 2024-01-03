@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <None Remove="ColorConfig.json" />
-    <None Remove="image\Icon1.png" />
     <None Remove="image\Icon2.png" />
     <None Remove="image\KeySV Icon.png" />
   </ItemGroup>
@@ -21,9 +20,6 @@
 
   <ItemGroup>
     <Resource Include="ColorConfig.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="image\Icon1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="image\Icon2.png">

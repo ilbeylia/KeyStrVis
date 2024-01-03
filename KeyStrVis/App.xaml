@@ -42,14 +42,25 @@
                     <ControlTemplate TargetType="Button">
                         <Border>
                             <StackPanel Orientation="Horizontal">
-                                <Icon:PackIconMaterial Kind="ArrowRight" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 0" Foreground="#ffff" Width="10" Height="10"/>
+                                <Icon:PackIconMaterial x:Name="ButtonIcon" Kind="SubdirectoryArrowRight" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 0" Foreground="#ffff" Width="10" Height="10"/>
                                 <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Text="{TemplateBinding Content}" FontSize="14" Foreground="#ffff" Margin="10 5 0 5" FontWeight="Bold"/>
                             </StackPanel>
                         </Border>
+
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
-         
+
+        <!-- TextBlock -->
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#ffff"/>
+            <Setter Property="Margin" Value="20 2 0 2"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
     </Application.Resources>
 </Application>
