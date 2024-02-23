@@ -34,6 +34,7 @@ namespace KeyStrVis
         }
 
 
+
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
@@ -94,11 +95,13 @@ namespace KeyStrVis
             MainFrame.Content = new Keyboard();
         }
 
-        private void Test(object sender, RoutedEventArgs e)
+
+        private void KeyStronkeVis(object sender, RoutedEventArgs e)
         {
             StronkeVisualizer stronkeVisualizer = new StronkeVisualizer();
             this.Hide();
             stronkeVisualizer.Show();
+
         }
     }
 }

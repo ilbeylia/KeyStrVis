@@ -27,10 +27,4 @@
     </Resource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="ColorConfig.cs">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Compile>
-  </ItemGroup>
-
 </Project>

@@ -59,6 +59,33 @@ namespace KeyStrVis
 
         private void OpacityOptions_Button_Click(object sender, RoutedEventArgs e)
         {
+            Change_Visibility("OpacityOptionsGrid");
+        }
+
+        private void Setting_Save(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TypographyOptions_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Change_Visibility("TypographyOptionsGrid");
+        }
+
+
+        // ADD process 
+        private void AlignRight_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AlignCenter_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AlignLeft_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
