@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:KeyStrVis"
         mc:Ignorable="d"
         Title="StronkeVisualizer" Height="90" Width="240" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
-        KeyDown="Push_KeyDown" Icon="/image/Icon2.png">
+        Icon="/image/Icon2.png">
     <Border MouseLeftButtonDown="KSV_Move_ClickDown" MouseLeftButtonUp="KSV_Move_ClickUp" MouseMove="KSV_Move" >
 
         <Grid>
@@ -17,7 +17,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
-            
+
                 <Border Width="100" Height="5" VerticalAlignment="Center" HorizontalAlignment="Center" Opacity="0.8" Background="#CED4DA" CornerRadius="3">
                     <Button x:Name="backToMainWindow_Button" Click="backToMainWindow_Click" BorderThickness="0" BorderBrush="Transparent" Background="Transparent"/>
                 </Border>
@@ -33,7 +33,7 @@
                         <Icon:PackIconMaterial Kind="KeyboardTab" VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" Foreground="#495057"/>
                     </Border>
                 </Grid>
-            
+
                 <Grid Grid.Column="1">
                     <Border Background="#CED4DA" CornerRadius="0 10 0 0" Margin="1" Opacity="0.8">
                         <TextBlock x:Name="KSV_textBlock" FontSize="16"  Width="160" Height="30" TextAlignment="Center" Foreground="#495057"/>
@@ -49,7 +49,11 @@
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0">
                     <Border x:Name="Shift_Border" Background="#CED4DA" CornerRadius="0 0 0 10" Margin="1" Opacity="0.8">
-                        <Icon:PackIconMaterial Kind="AppleKeyboardShift" VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" Foreground="#495057"/>
+                        <Grid>
+                            <TextBlock  x:Name="Shift_Way" VerticalAlignment="Center"  Foreground="#495057" FontSize="18" FontWeight="Bold" Margin="8 0 8 5" />
+                            <Icon:PackIconMaterial Kind="AppleKeyboardShift" VerticalAlignment="Center" HorizontalAlignment="Center" Width="26" Height="26" Foreground="#495057"/>
+                            
+                        </Grid>
                     </Border>
                 </Grid>
                 <Grid Grid.Column="1">
@@ -59,9 +63,9 @@
                     </Border>
                 </Grid>
                 <Grid Grid.Column="2">
-                    <Border x:Name="Cmd_Border" Background="#CED4DA"  Margin="1" Opacity="0.8">
-                        <Icon:PackIconMaterial Kind="Microsoft" VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" Foreground="#495057"/> 
-                        
+                    <Border x:Name="Win_Border" Background="#CED4DA"  Margin="1" Opacity="0.8">
+                        <Icon:PackIconMaterial Kind="Microsoft" VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" Foreground="#495057"/>
+
                     </Border>
                 </Grid>
                 <Grid Grid.Column="3">

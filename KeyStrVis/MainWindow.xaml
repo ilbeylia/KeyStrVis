@@ -7,7 +7,7 @@
         Height="500" Width="350" WindowStyle="None" AllowsTransparency="True" Background="Transparent" Icon="/image/Icon2.png">
 
     <!-- Main Window -->
-    <Border x:Name="MainBorder" Background="#CED4DA" CornerRadius="20" Opacity="0.95">
+    <Border x:Name="MainBorder" Background="#CED4DA" CornerRadius="20" Opacity="0.97">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="10"/>

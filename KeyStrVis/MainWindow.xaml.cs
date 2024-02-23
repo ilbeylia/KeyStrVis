@@ -40,10 +40,7 @@ namespace KeyStrVis
             Close();
         }
 
-        private void MenuButton_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
 
         private void Setting_Click(object sender, RoutedEventArgs e)
         {
