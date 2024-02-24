@@ -1,0 +1,81 @@
+﻿<Window x:Class="KeyStrVis.StrokeVisualizer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:local="clr-namespace:KeyStrVis"
+        mc:Ignorable="d"
+        Title="StrokeVisualizer" Height="90" Width="240" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Icon="/image/Icon2.png">
+    <Border MouseLeftButtonDown="KSV_Move_ClickDown" MouseLeftButtonUp="KSV_Move_ClickUp" MouseMove="KSV_Move" >
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+
+                <Border Width="100" Height="5" VerticalAlignment="Center" HorizontalAlignment="Center" Opacity="0.8" Background="#CED4DA" CornerRadius="3">
+                    <Button x:Name="backToMainWindow_Button" Click="backToMainWindow_Click" BorderThickness="0" BorderBrush="Transparent" Background="Transparent"/>
+                </Border>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Border x:Name="Tab_Border" Background="#CED4DA" CornerRadius="10 0 0 0" Margin="1" Opacity="0.8">
+                        <Icon:PackIconMaterial Kind="KeyboardTab" VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" Foreground="#495057"/>
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Column="1">
+                    <Border Background="#CED4DA" CornerRadius="0 10 0 0" Margin="1" Opacity="0.8">
+                        <TextBlock x:Name="KSV_textBlock" FontSize="16"  Width="160" Height="30" TextAlignment="Center" Foreground="#495057"/>
+                    </Border>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Border x:Name="Shift_Border" Background="#CED4DA" CornerRadius="0 0 0 10" Margin="1" Opacity="0.8">
+                        <Grid>
+                            <TextBlock  x:Name="Shift_Way" VerticalAlignment="Center"  Foreground="#495057" FontSize="18" FontWeight="Bold" Margin="8 0 8 5" />
+                            <Icon:PackIconMaterial Kind="AppleKeyboardShift" VerticalAlignment="Center" HorizontalAlignment="Center" Width="26" Height="26" Foreground="#495057"/>
+                            
+                        </Grid>
+                    </Border>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Border x:Name="Ctrl_Border" Background="#CED4DA" CornerRadius="0 0 0 0" Margin="1" Opacity="0.8">
+                        <!-- <Icon:PackIconMaterial Kind="AppleKeyboardControl" VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" Foreground="#495057"/> -->
+                        <TextBlock Text="CTRL"  FontSize="18" Foreground="#495057" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold"/>
+                    </Border>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Border x:Name="Win_Border" Background="#CED4DA"  Margin="1" Opacity="0.8">
+                        <Icon:PackIconMaterial Kind="Microsoft" VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" Foreground="#495057"/>
+
+                    </Border>
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Border x:Name="Alt_Border" Background="#CED4DA" CornerRadius="0 0 10 0" Margin="1" Opacity="0.8">
+                        <!-- <Icon:PackIconMaterial Kind="Microsoft" VerticalAlignment="Center" HorizontalAlignment="Center" Width="25" Height="25" Foreground="#495057"/> -->
+                        <TextBlock Text="ALT"  FontSize="18" Foreground="#495057" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold"/>
+                    </Border>
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </Border>
+</Window>

@@ -16,7 +16,7 @@
     <Compile Update="Setting.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="StronkeVisualizer.xaml.cs">
+    <Compile Update="StrokeVisualizer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -33,7 +33,7 @@
     <Page Update="Setting.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="StronkeVisualizer.xaml">
+    <Page Update="StrokeVisualizer.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

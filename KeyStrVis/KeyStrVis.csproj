@@ -10,7 +10,9 @@
   <ItemGroup>
     <None Remove="ColorConfig.json" />
     <None Remove="image\Icon2.png" />
+    <None Remove="image\KeyStrVis.png" />
     <None Remove="image\KeySV Icon.png" />
+    <None Remove="image\KSVis.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +25,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="image\Icon2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\KeyStrVis.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image\KSVis.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

@@ -93,11 +93,11 @@ namespace KeyStrVis
         }
 
 
-        private void KeyStronkeVis(object sender, RoutedEventArgs e)
+        private void KeyStrokeVis(object sender, RoutedEventArgs e)
         {
-            StronkeVisualizer stronkeVisualizer = new StronkeVisualizer();
+            StrokeVisualizer strokeVisualizer = new StrokeVisualizer();
             this.Hide();
-            stronkeVisualizer.Show();
+            strokeVisualizer.Show();
 
         }
     }

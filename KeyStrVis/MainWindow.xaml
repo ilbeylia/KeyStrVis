@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:Icon ="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        Height="500" Width="350" WindowStyle="None" AllowsTransparency="True" Background="Transparent" Icon="/image/Icon2.png">
+        Height="500" Width="350" WindowStyle="None" AllowsTransparency="True" Background="Transparent" Icon="/image/KeyStrVis.png">
 
     <!-- Main Window -->
     <Border x:Name="MainBorder" Background="#CED4DA" CornerRadius="20" Opacity="0.97">
@@ -55,7 +55,7 @@
                         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
                     </Border>
                     <Border Width="150" Height="6" Background="#ADB5BD" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10" CornerRadius="2" Grid.ColumnSpan="2" Opacity="0.95">
-                        <Button Click="KeyStronkeVis" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Center" HorizontalAlignment="Center" Width="150" Height="10" Background="Transparent"/>
+                        <Button Click="KeyStrokeVis" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Center" HorizontalAlignment="Center" Width="150" Height="10" Background="Transparent"/>
                     </Border>
                 </Grid>
             </Grid>
