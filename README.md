@@ -1,11 +1,17 @@
+![Project Logo](https://github.com/ilbeylia/KeyStrVis/blob/master/Img/KeyStrVis.jpg)
+
 # KeyStrVis - Keyboard Stroke Visualizer
 
 KeyStrVis is a keyboard stroke visualizer that provides a dynamic and engaging representation of your typing activity. Whether you are a content creator, programmer, or just curious about your typing patterns, KeyStrVis offers a visually appealing way to explore and analyze your keyboard input.
 
+![MainWindow](https://github.com/ilbeylia/KeyStrVis/blob/master/Img/MainWindowSetting.jpg)
+
+![KeyStrokeVisualizer](https://github.com/ilbeylia/KeyStrVis/blob/master/Img/KeypadStrokeVisualizer.PNG)
+
 ## Features
 
 - Real-time visualization of key presses and releases.
-- Customizable themes and color schemes.
+- Customizable color schemes.
 - Support for various keyboard layouts.
 - Adjustable playback speed for replaying typing sessions.
 - Export and share your visualized typing sessions.
