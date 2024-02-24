@@ -31,7 +31,5 @@ C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\refint\
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis.pdb
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\KeyStrVis.genruntimeconfig.cache
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\ref\KeyStrVis.dll
-C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\StronkeVisualizer.g.cs
-C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\StronkeVisualizer.baml
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\StrokeVisualizer.g.cs
 C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\StrokeVisualizer.baml
