@@ -31,7 +31,9 @@ namespace KeyStrVis
         {
             InitializeComponent();
             MainFrame.Content = new Setting();
+
         }
+
 
 
 

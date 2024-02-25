@@ -22,9 +22,13 @@ namespace KeyStrVis
     /// </summary>
     public partial class Setting : Page
     {
+        private SettingConfigParameters configParameters;
         public Setting()
         {
             InitializeComponent();
+            configParameters = new SettingConfigParameters();
+
+
         }
 
         private void ColorOptions_Click(object sender, RoutedEventArgs e)
@@ -87,6 +91,20 @@ namespace KeyStrVis
         private void AlignLeft_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void TC_Backgroud_1_Color(object sender, TextChangedEventArgs e)
+        {
+            Setting_Save_Button.IsEnabled = true;
+            SettigParametersSave();
+        }
+
+        private void SettigParametersSave()
+        {
+            SettingConfigParameters.Configuration config = configParameters.LoadConfiguration();
+            config.ColorsParameters.Background_1_color = Set_Background_1_Color.Text;
+
+            configParameters.UpdateConfiguration(config);
         }
     }
 }
