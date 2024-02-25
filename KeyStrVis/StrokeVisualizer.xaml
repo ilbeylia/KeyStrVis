@@ -6,8 +6,8 @@
         xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:local="clr-namespace:KeyStrVis"
         mc:Ignorable="d"
-        Title="StrokeVisualizer" Height="90" Width="240" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
-        Icon="/image/Icon2.png">
+        Title="StrokeVisualizer" Height="90" Width="240" WindowStyle="None" WindowState="Normal" AllowsTransparency="True" Background="Transparent"
+        Icon="/image/KeyStrVis.png">
     <Border MouseLeftButtonDown="KSV_Move_ClickDown" MouseLeftButtonUp="KSV_Move_ClickUp" MouseMove="KSV_Move" >
 
         <Grid>

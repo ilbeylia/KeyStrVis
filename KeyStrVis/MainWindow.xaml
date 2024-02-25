@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:Icon ="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        Height="500" Width="350" WindowStyle="None" AllowsTransparency="True" Background="Transparent" Icon="/image/KeyStrVis.png">
+        Height="500" Width="350" WindowStyle="None" WindowState="Normal" AllowsTransparency="True" Background="Transparent" Icon="/image/KeyStrVis.png">
 
     <!-- Main Window -->
     <Border x:Name="MainBorder" Background="#CED4DA" CornerRadius="20" Opacity="0.97">
