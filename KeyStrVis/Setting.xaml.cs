@@ -23,10 +23,14 @@ namespace KeyStrVis
     public partial class Setting : Page
     {
         private SettingConfigParameters configParameters;
+
+        List<string> LanguagesChoose = new List<string> {"TR: QWERTY", "EN: QWERTY", "DE: QWERTZ", "FR: AZERTY"};
         public Setting()
         {
             InitializeComponent();
             configParameters = new SettingConfigParameters();
+
+            AddItemsComboBox(LanguagesChoose);
 
 
         }
@@ -76,22 +80,24 @@ namespace KeyStrVis
             Change_Visibility("TypographyOptionsGrid");
         }
 
+        private void LanguagesOptions_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Change_Visibility("LanguagesOptionsGrid");
+        }
+
+        private void AddItemsComboBox(List<string> items)
+        {
+            foreach (string item in items)
+            {
+                LanguagesChoose_ComboBox.Items.Add(item);
+            }
+        }
+        private void LanguagesChoose_SelectChange(object sender, SelectionChangedEventArgs e)
+        {
+            /// burayi kullanicam 
+        }
 
         // ADD process 
-        private void AlignRight_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void AlignCenter_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void AlignLeft_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
 
         private void TC_Backgroud_1_Color(object sender, TextChangedEventArgs e)
         {
@@ -102,9 +108,10 @@ namespace KeyStrVis
         private void SettigParametersSave()
         {
             SettingConfigParameters.Configuration config = configParameters.LoadConfiguration();
-            config.ColorsParameters.Background_1_color = Set_Background_1_Color.Text;
+//            config.ColorsParameters.Background_1_color = Set_Background_1_Color.Text;
 
             configParameters.UpdateConfiguration(config);
         }
+
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\KeyStrVis.exe
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\KeyStrVis.dll
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\KeyStrVis.deps.json
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\KeyStrVis.runtimeconfig.json
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\KeyStrVis.pdb
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\MahApps.Metro.IconPacks.Core.dll
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\MahApps.Metro.IconPacks.Material.dll
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\Newtonsoft.Json.dll
+C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\bin\Release\net6.0-windows\app.publish\Newtonsoft.Json.Schema.dll

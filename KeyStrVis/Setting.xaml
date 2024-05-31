@@ -6,7 +6,7 @@
       xmlns:Icon ="http://metro.mahapps.com/winfx/xaml/iconpacks"
       xmlns:local="clr-namespace:KeyStrVis"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="280">
+      d:DesignHeight="450" d:DesignWidth="280" >
 
     <Grid>
         <Grid.RowDefinitions>
@@ -34,7 +34,7 @@
                 <StackPanel Orientation="Vertical">
                     <Separator Height="0.6" VerticalAlignment="Top" Margin="0 5 0 5" Width="250" Background="#ffffff"/>
                     <Border>
-                        <Button x:Name="ColorOptions_Button" Style="{StaticResource DynemicButton}" Content="Color" Click="ColorOptions_Click"/>
+                        <Button x:Name="ColorOptions_Button" Style="{StaticResource DynemicButton}" Cursor="Hand" Content="Color" Click="ColorOptions_Click"/>
                     </Border>
                     <!--Color Options-->
                     <Grid x:Name="ColorOptionsGrid" Height="80" Visibility="Visible">
@@ -59,14 +59,14 @@
                     
                     <!--Opacity Options-->
                     <Border>
-                        <Button x:Name="OpacityOptions_Button" Style="{StaticResource DynemicButton}" Content="Opacity" Click="OpacityOptions_Button_Click"/>
+                        <Button x:Name="OpacityOptions_Button" Style="{StaticResource DynemicButton}" Content="Opacity" Cursor="Hand"  Click="OpacityOptions_Button_Click"/>
                     </Border>
                     <Grid x:Name="OpacityOptionsGrid" Visibility="Visible">
                         <StackPanel Orientation="Vertical">
                             <Border Background="#CED4DA" CornerRadius="5" Width="250" Height="30" Margin=" 0 5 0 5">
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="Opacity" Style="{StaticResource TextBlockStyle}" FontWeight="Bold"/>
-                                    <Slider x:Name="Opacity_Slider" Maximum="1" Minimum="0" VerticalAlignment="Center" Margin="50 0 0 0" Width="100"/>
+                                    <Slider x:Name="Opacity_Slider" Maximum="1" Minimum="0" VerticalAlignment="Center" Margin="50 0 0 0" Width="130"/>
 
                                 </StackPanel>
                             </Border>
@@ -76,7 +76,7 @@
 
                     <!--Typography Options-->
                     <Border>
-                        <Button x:Name="TypographyOptions_Button" Style="{StaticResource DynemicButton}" Content="Typography" Click="TypographyOptions_Button_Click"/>
+                        <Button x:Name="TypographyOptions_Button" Style="{StaticResource DynemicButton}" Content="Typography" Cursor="Hand" Click="TypographyOptions_Button_Click"/>
                     </Border>
                     
                     <Grid x:Name="TypographyOptionsGrid" Visibility="Visible">
@@ -84,6 +84,7 @@
                             <Border Background="#CED4DA" CornerRadius="5" Width="250" Height="30" Margin=" 0 5 0 5">
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="Font" Style="{StaticResource TextBlockStyle}" FontWeight="Bold"/>
+                                   
 
                                 </StackPanel>
                             </Border>
@@ -92,27 +93,26 @@
                                     <TextBlock Text="Font Size" Style="{StaticResource TextBlockStyle}" FontWeight="Bold"/>
                                 </StackPanel>
                             </Border>
-
-                            <Border Background="#CED4DA" CornerRadius="5" Width="250" Height="30" Margin=" 0 5 0 5">
-                                <StackPanel Orientation="Horizontal">
-                                    <TextBlock Text="Alignment" Style="{StaticResource TextBlockStyle}" FontWeight="Bold"/>
-                                    <Button x:Name="alignRight" Margin="50 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Click="AlignRight_Click" Cursor="Hand">
-                                        <Icon:PackIconMaterial Kind="FormatAlignRight"  VerticalAlignment="Center" Foreground="#ffff"/>
-                                    </Button>
-                                    <Button x:Name="alignCenter" Margin="20 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Click="AlignCenter_Click" Cursor="Hand">
-                                        <Icon:PackIconMaterial  Kind="FormatAlignCenter"  VerticalAlignment="Center" Foreground="#ffff"/>
-                                    </Button>
-                                    <Button x:Name="alignLeft" Margin="20 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Click="AlignLeft_Click" Cursor="Hand">
-                                        <Icon:PackIconMaterial  Kind="FormatAlignLeft"  VerticalAlignment="Center" Foreground="#ffff"/>
-                                    </Button>
-                                </StackPanel>                                      
-                            </Border>
                         </StackPanel>
 
-
-                    </Grid>
+                     </Grid>
                     
                     <Separator Height="0.6" VerticalAlignment="Top" Margin="0 5 0 5" Width="250" Background="#ffffff"/>
+
+                    <!--Language Options-->
+                    <Border>
+                        <Button x:Name="LanguagesOptions_Button" Style="{StaticResource DynemicButton}" Content="Languages" Cursor="Hand" Click="LanguagesOptions_Button_Click"/>
+                    </Border>
+                    <Grid x:Name="LanguagesOptionsGrid" Visibility="Visible">
+                        <StackPanel Orientation="Vertical">
+                            <Border Background="#CED4DA" CornerRadius="5" Width="250" Height="30" Margin=" 0 5 0 5">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Choose" Style="{StaticResource TextBlockStyle}" FontWeight="Bold"/>
+                                    <ComboBox x:Name="LanguagesChoose_ComboBox" Width="130" Height="20"  Margin="50 0 0 0" Style="{StaticResource ComboBoxSyle}" SelectionChanged="LanguagesChoose_SelectChange"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Grid>
                 </StackPanel>
             </Border>
         </Grid>

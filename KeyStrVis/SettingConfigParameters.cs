@@ -12,11 +12,14 @@ namespace KeyStrVis
     {
         public class ColorsParameters
         {
-            public string Background_1_color { get; set; }
-            public string Background_2_color { get; set; }
-            public string Foreground_Color { get; set; }
-            public string Icon_color { get; set; }
-            public string Font_color { get; set; }
+            public string Background_1_color { get; set; } = "#6C757D";
+            public string Background_2_color { get; set; } = "#DEE2E6";
+            public string Foreground_1_Color { get; set; } ="#6C757D";
+
+            public string Foreground_2_Color { get; set; }= "#6C757D";
+            public string Icon_color { get; set; } = "#6C757D";
+            public string Font_1_color { get; set; } = "#6C757D";
+            public string Font_2_color { get; set; } = "#ffff";
         }
 
         public class OpacityParameters
@@ -29,7 +32,6 @@ namespace KeyStrVis
         {
             public string FontFamily { get; set; }
             public int FonstSize { get; set; }
-            public string Alignment { get; set; }
         }
 
         public class KeyboardParameters
