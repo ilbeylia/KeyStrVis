@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\
+A:\KeyStrVis\KeyStrVis\obj\Debug\net6.0-windows\
 KeyStrVis
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\CANAVAR-32\Desktop\KeyStrVis\KeyStrVis\App.xaml
+A:\KeyStrVis\KeyStrVis\App.xaml
 51221704892
 
 8689404363
-1981244445858
+198-225709466
 Keyboard.xaml;MainWindow.xaml;Mouse.xaml;Setting.xaml;StrokeVisualizer.xaml;
 
 False

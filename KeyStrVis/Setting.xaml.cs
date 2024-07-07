@@ -113,5 +113,9 @@ namespace KeyStrVis
             configParameters.UpdateConfiguration(config);
         }
 
+        private void ScrollViewer_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
+        {
+
+        }
     }
 }
