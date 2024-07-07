@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 A:\KeyStrVis\KeyStrVis\App.xaml
-51221704892
+5-1805802713
 
-10812702616
+91199843450
 198-225709466
-Keyboard.xaml;MainWindow.xaml;Mouse.xaml;Setting.xaml;StrokeVisualizer.xaml;
+View\Keyboard.xaml;View\MainWindow.xaml;View\Mouse.xaml;View\Setting.xaml;View\StrokeVisualizer.xaml;
 
-True
+False
 

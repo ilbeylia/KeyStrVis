@@ -53,7 +53,7 @@ namespace KeyStrVis {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/KeyStrVis;component/mouse.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/KeyStrVis;V1.0.0.0;component/mouse.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Mouse.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

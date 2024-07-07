@@ -119,7 +119,7 @@ namespace KeyStrVis {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/KeyStrVis;component/strokevisualizer.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/KeyStrVis;V1.0.0.0;component/strokevisualizer.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\StrokeVisualizer.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

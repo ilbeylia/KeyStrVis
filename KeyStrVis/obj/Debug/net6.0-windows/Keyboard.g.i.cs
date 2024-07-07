@@ -53,7 +53,7 @@ namespace KeyStrVis {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/KeyStrVis;component/keyboard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/KeyStrVis;V1.0.0.0;component/keyboard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Keyboard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

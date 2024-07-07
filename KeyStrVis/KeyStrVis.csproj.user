@@ -9,33 +9,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Keyboard.xaml.cs">
+    <Compile Update="View\Keyboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Mouse.xaml.cs">
+    <Compile Update="View\Mouse.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Setting.xaml.cs">
+    <Compile Update="View\Setting.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="StrokeVisualizer.xaml.cs">
+    <Compile Update="View\StrokeVisualizer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Keyboard.xaml">
+    <Page Update="View\Keyboard.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="View\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Mouse.xaml">
+    <Page Update="View\Mouse.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Setting.xaml">
+    <Page Update="View\Setting.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="StrokeVisualizer.xaml">
+    <Page Update="View\StrokeVisualizer.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
