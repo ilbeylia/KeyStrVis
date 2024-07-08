@@ -12,8 +12,6 @@
     AllowsTransparency="True"
     Background="Transparent"
     Icon="/image/KeyStrVis.png"
-    PreviewKeyDown="Window_PreviewKeyDown"
-    PreviewKeyUp="Window_PreviewKeyUp"
     Topmost="True"
     WindowState="Normal"
     WindowStyle="None"

@@ -105,24 +105,7 @@ namespace KeyStrVis
         }
 
         // temporary use
-        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.LeftAlt || e.Key == Key.RightAlt)
-            {
-                Color color = (Color)ColorConverter.ConvertFromString("#7a7d80");
-                Alt_Border.Background = new SolidColorBrush(color);
-                e.Handled = true;
-            }
-        }
-        private void Window_PreviewKeyUp(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.LeftAlt || e.Key == Key.RightAlt)
-            {
-                Color color = (Color)ColorConverter.ConvertFromString("#CED4DA");
-                Alt_Border.Background = new SolidColorBrush(color);
-                e.Handled = true;
-            }
-        }
+
 
         private void Hook_KeyReleased(object sender, KeyReleasedEventArgs e)
         {
