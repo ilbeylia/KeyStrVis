@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeyStrVis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f8d49d096047da1b59a5f261d344d8aa337fb83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8ab05d3bf7cbe8cb1896174e73dd290340fd202")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyStrVis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyStrVis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

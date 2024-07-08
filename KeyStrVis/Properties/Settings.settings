@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KeyStrVis.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Background1_Clr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#CED4DA</Value>
+    </Setting>
+    <Setting Name="Background2_Clr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#ADB5BD</Value>
+    </Setting>
+    <Setting Name="WindowOpacity" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.97</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -31,8 +31,23 @@ namespace KeyStrVis
             _hook = new KeyboardHook();
             _hook.KeyPressed += Hook_KeyPressed;
             _hook.KeyReleased += Hook_KeyReleased;
+            Loaded += MainWindow_Loaded;
         }
-        
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            IntPtr hWnd = new System.Windows.Interop.WindowInteropHelper(this).Handle;
+            SetWindowPos(hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
+        }
+
+        private const int HWND_TOPMOST = -1;
+        private const uint SWP_NOMOVE = 0x0002;
+        private const uint SWP_NOSIZE = 0x0001;
+
+        [DllImport("user32.dll", SetLastError = true)]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        private static extern bool SetWindowPos(IntPtr hWnd, int hWndInsertAfter, int x, int y, int cx, int cy, uint uFlags);
+
         private void Hook_KeyPressed(object sender, KeyPressedEventArgs e)
         {
             Color color = (Color)ColorConverter.ConvertFromString("#7a7d80");
@@ -41,7 +56,7 @@ namespace KeyStrVis
 
             if (KeyStroke != "Space" && Pressed_Keys.Length <=10 )
             {
-                switch (KeyStroke)
+                    switch (KeyStroke)
                 {
 
                     case "LeftShift":
@@ -56,6 +71,10 @@ namespace KeyStrVis
                         break;
                     case "LeftCtrl":
                         Ctrl_Border.Background = new SolidColorBrush(color);
+                        break;
+                    case "LeftAlt":
+                    case "RightAlt":
+                        Alt_Border.Background = new SolidColorBrush(color);
                         break;
                     case "Tab":
                         Tab_Border.Background = new SolidColorBrush(color);
@@ -85,10 +104,30 @@ namespace KeyStrVis
             
         }
 
+        // temporary use
+        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.LeftAlt || e.Key == Key.RightAlt)
+            {
+                Color color = (Color)ColorConverter.ConvertFromString("#7a7d80");
+                Alt_Border.Background = new SolidColorBrush(color);
+                e.Handled = true;
+            }
+        }
+        private void Window_PreviewKeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.LeftAlt || e.Key == Key.RightAlt)
+            {
+                Color color = (Color)ColorConverter.ConvertFromString("#CED4DA");
+                Alt_Border.Background = new SolidColorBrush(color);
+                e.Handled = true;
+            }
+        }
+
         private void Hook_KeyReleased(object sender, KeyReleasedEventArgs e)
         {
             Color color = (Color)ColorConverter.ConvertFromString("#CED4DA");
-            switch (GetKey(e.KeyReleased))          
+             switch (GetKey(e.KeyReleased))          
             {
 
                 case "LeftCtrl":
@@ -101,6 +140,10 @@ namespace KeyStrVis
                 case "RightShift":
                     Shift_Way.Text = "";
                     Shift_Border.Background = new SolidColorBrush(color);
+                    break;
+                case "LeftAlt":
+                case "RightAlt":
+                    Alt_Border.Background = new SolidColorBrush(color);
                     break;
                 case "Tab":
                     Tab_Border.Background = new SolidColorBrush(color);
@@ -155,7 +198,7 @@ namespace KeyStrVis
         }
 
         private string GetKey(Key key)
-        {
+            {
             // tr mode 
             switch(key){
                 case Key.OemQuestion: return "Ö"; 
@@ -169,7 +212,8 @@ namespace KeyStrVis
                 case Key.Oem8: return "*";
                 case Key.Oem3: return "'";
                 case Key.OemMinus: return "-";
-                   
+
+
 
 
                 default:

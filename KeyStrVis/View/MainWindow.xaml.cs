@@ -28,6 +28,7 @@ namespace KeyStrVis
         {
             InitializeComponent();
             MainFrame.Content = new Setting();
+            this.Opacity = Properties.Settings.Default.WindowOpacity;
 
         }
 
@@ -73,5 +74,12 @@ namespace KeyStrVis
                 DragMove();
             }
         }
+
+        private void GamePadButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Burayi ekleme yap 
+        }
+
+
     }
 }

@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "A:\\KeyStrVis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\mouse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\mouse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\strokevisualizer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\strokevisualizer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\strokevisualizer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\strokevisualizer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\setting.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\setting.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\view\\setting.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\view\\setting.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\keystrvis.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|solutionrelative:keystrvis\\keystrvis.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E45636E-C57C-41F0-A604-9BA48AA7980C}|KeyStrVis\\KeyStrVis.csproj|a:\\keystrvis\\keystrvis\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -26,24 +50,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 348,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Mouse.xaml",
+              "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\View\\Mouse.xaml",
+              "RelativeDocumentMoniker": "KeyStrVis\\View\\Mouse.xaml",
+              "ToolTip": "A:\\KeyStrVis\\KeyStrVis\\View\\Mouse.xaml",
+              "RelativeToolTip": "KeyStrVis\\View\\Mouse.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-08T22:27:51.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StrokeVisualizer.xaml.cs",
+              "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\View\\StrokeVisualizer.xaml.cs",
+              "RelativeDocumentMoniker": "KeyStrVis\\View\\StrokeVisualizer.xaml.cs",
+              "ToolTip": "A:\\KeyStrVis\\KeyStrVis\\View\\StrokeVisualizer.xaml.cs",
+              "RelativeToolTip": "KeyStrVis\\View\\StrokeVisualizer.xaml.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAnwMgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:44:07.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StrokeVisualizer.xaml",
+              "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\View\\StrokeVisualizer.xaml",
+              "RelativeDocumentMoniker": "KeyStrVis\\View\\StrokeVisualizer.xaml",
+              "ToolTip": "A:\\KeyStrVis\\KeyStrVis\\View\\StrokeVisualizer.xaml",
+              "RelativeToolTip": "KeyStrVis\\View\\StrokeVisualizer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-08T21:42:49.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Setting.xaml.cs",
+              "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\View\\Setting.xaml.cs",
+              "RelativeDocumentMoniker": "KeyStrVis\\View\\Setting.xaml.cs",
+              "ToolTip": "A:\\KeyStrVis\\KeyStrVis\\View\\Setting.xaml.cs",
+              "RelativeToolTip": "KeyStrVis\\View\\Setting.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:15:07.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "KeyStrVis\\Properties\\Settings.settings",
+              "ToolTip": "A:\\KeyStrVis\\KeyStrVis\\Properties\\Settings.settings",
+              "RelativeToolTip": "KeyStrVis\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-07-08T21:11:20.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KeyStrVis",
+              "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\KeyStrVis.csproj",
+              "RelativeDocumentMoniker": "KeyStrVis\\KeyStrVis.csproj",
+              "ToolTip": "A:\\KeyStrVis\\KeyStrVis\\KeyStrVis.csproj",
+              "RelativeToolTip": "KeyStrVis\\KeyStrVis.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-08T21:06:45.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "KeyStrVis\\View\\MainWindow.xaml.cs",
               "ToolTip": "A:\\KeyStrVis\\KeyStrVis\\View\\MainWindow.xaml.cs",
               "RelativeToolTip": "KeyStrVis\\View\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwCAAAAAAAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T17:45:44.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "KeyStrVis\\View\\MainWindow.xaml",
@@ -55,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Setting.xaml",
               "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\View\\Setting.xaml",
               "RelativeDocumentMoniker": "KeyStrVis\\View\\Setting.xaml",
@@ -67,13 +169,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "App.config",
               "DocumentMoniker": "A:\\KeyStrVis\\KeyStrVis\\App.config",
               "RelativeDocumentMoniker": "KeyStrVis\\App.config",
               "ToolTip": "A:\\KeyStrVis\\KeyStrVis\\App.config",
               "RelativeToolTip": "KeyStrVis\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-07-07T17:35:24.013Z",
               "EditorCaption": ""

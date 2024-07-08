@@ -1,7 +1,7 @@
 ﻿
 FA:\KeyStrVis\KeyStrVis\App.xaml;;
-FA:\KeyStrVis\KeyStrVis\Keyboard.xaml;;
-FA:\KeyStrVis\KeyStrVis\Mouse.xaml;;
-FA:\KeyStrVis\KeyStrVis\Setting.xaml;;
-FA:\KeyStrVis\KeyStrVis\StrokeVisualizer.xaml;;
+FA:\KeyStrVis\KeyStrVis\View\Keyboard.xaml;;
+FA:\KeyStrVis\KeyStrVis\View\Mouse.xaml;;
+FA:\KeyStrVis\KeyStrVis\View\Setting.xaml;;
+FA:\KeyStrVis\KeyStrVis\View\StrokeVisualizer.xaml;;
 

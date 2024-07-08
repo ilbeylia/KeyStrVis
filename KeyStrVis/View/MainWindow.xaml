@@ -1,62 +1,136 @@
-﻿<Window x:Class="KeyStrVis.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:Icon ="http://metro.mahapps.com/winfx/xaml/iconpacks"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        ResizeMode="NoResize"
-        Height="500" Width="350" WindowStyle="None" WindowState="Normal" AllowsTransparency="True" Background="Transparent" Icon="/image/KeyStrVis.png">
+﻿<Window
+    x:Class="KeyStrVis.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="350"
+    Height="500"
+    AllowsTransparency="True"
+    Background="Transparent"
+    Icon="/image/KeyStrVis.png"
+    ResizeMode="NoResize"
+    WindowState="Normal"
+    WindowStyle="None">
 
-    <!-- Main Window -->
-    <Border x:Name="MainBorder" Background="#CED4DA" CornerRadius="20" Opacity="0.97">
+    <!--  Main Window  -->
+    <Border
+        x:Name="MainBorder"
+        Background="#CED4DA"
+        CornerRadius="20"
+        Opacity="0.97">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="10"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid>
-                <Border Background="Transparent" MouseLeftButtonDown="DragMove_Handler">
-
-                </Border>
+                <Border Background="Transparent" MouseLeftButtonDown="DragMove_Handler" />
             </Grid>
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <!-- Menu -->
-                <Grid >
-                    <StackPanel Orientation="Vertical">
-                        <Border Background="Transparent" Margin="10">
-                            <Button x:Name="Setting_Button" Click="Setting_Click" Style="{StaticResource IconButton}">
-                                <Icon:PackIconMaterial Kind="Cog" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <!--  Menu  -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="60" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Orientation="Vertical">
+                        <Border Margin="10" Background="Transparent">
+                            <Button
+                                x:Name="Setting_Button"
+                                Click="Setting_Click"
+                                Style="{StaticResource IconButton}">
+                                <Icon:PackIconMaterial
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Kind="Cog" />
                             </Button>
                         </Border>
-                        <Border Background="Transparent" Margin="10">
-                            <Button x:Name="KeyBoard_Button" Click="KeyboardButton_Click" Style="{StaticResource IconButton}">
-                                <Icon:PackIconMaterial Kind="Keyboard" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border Margin="10" Background="Transparent">
+                            <Button
+                                x:Name="KeyBoard_Button"
+                                Click="KeyboardButton_Click"
+                                Style="{StaticResource IconButton}">
+                                <Icon:PackIconMaterial
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Kind="Keyboard" />
                             </Button>
                         </Border>
-                        <Border Background="Transparent" Margin="10">
-                            <Button x:Name="Mouse_Button" Click="MouseButton_Click" Style="{StaticResource IconButton}">
-                                <Icon:PackIconMaterial Kind="Mouse" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border Margin="10" Background="Transparent">
+                            <Button
+                                x:Name="Mouse_Button"
+                                Click="MouseButton_Click"
+                                Style="{StaticResource IconButton}">
+                                <Icon:PackIconMaterial
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Kind="Mouse" />
                             </Button>
                         </Border>
-                        <Border Background="Transparent" Margin="10 290" >
-                            <Button x:Name="Close_Button" Click="CloseButton_Click" Style="{StaticResource IconButton}">
-                                <Icon:PackIconMaterial Kind="CloseCircle" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border Margin="10" Background="Transparent">
+                            <Button
+                                x:Name="Game_Button"
+                                Click="GamePadButton_Click"
+                                Style="{StaticResource IconButton}">
+                                <Icon:PackIconMaterial
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Kind="Gamepad" />
                             </Button>
                         </Border>
                     </StackPanel>
+
+                    <Border
+                        Grid.Row="1"
+                        Margin="10"
+                        Background="Transparent">
+                        <Button
+                            x:Name="Close_Button"
+                            Click="CloseButton_Click"
+                            Style="{StaticResource IconButton}">
+                            <Icon:PackIconMaterial
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Kind="CloseCircle" />
+                        </Button>
+                    </Border>
                 </Grid>
 
-                <!-- Proccess Frame -->
+                <!--  Proccess Frame  -->
                 <Grid Grid.Column="1">
-                    <Border Background="#ADB5BD" Margin="0 10 10 25" CornerRadius="10" Opacity="0.95" Grid.ColumnSpan="2">
-                        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+                    <Border
+                        Grid.ColumnSpan="2"
+                        Margin="0,10,10,25"
+                        Background="#ADB5BD"
+                        CornerRadius="10"
+                        Opacity="0.95">
+                        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" />
                     </Border>
-                    <Border Width="150" Height="6" Background="#ADB5BD" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10" CornerRadius="2" Grid.ColumnSpan="2" Opacity="0.95">
-                        <Button Click="KeyStrokeVis" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Center" HorizontalAlignment="Center" Width="150" Height="10" Background="Transparent"/>
+                    <Border
+                        Grid.ColumnSpan="2"
+                        Width="150"
+                        Height="6"
+                        Margin="0,0,0,10"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                        Background="#ADB5BD"
+                        CornerRadius="2"
+                        Opacity="0.95">
+                        <Button
+                            Width="150"
+                            Height="10"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            BorderThickness="0"
+                            Click="KeyStrokeVis" />
                     </Border>
                 </Grid>
             </Grid>
