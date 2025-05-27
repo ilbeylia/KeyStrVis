@@ -259,7 +259,7 @@ namespace KeyStrVis
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);
         }
-
+        
 
         private delegate IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, IntPtr lParam);
 
